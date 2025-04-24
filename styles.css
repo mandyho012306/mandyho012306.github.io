@@ -1,0 +1,120 @@
+/* your name please */
+/* please make sure you change the name of this file to styles.css */
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*element style
+profile-image*/
+element style
+profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid black;
+    margin-bottom: 15px;
+}
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+user agent stylesheet
+section {
+    display: block;
+    unicode-bidi: isolate;
+}
+section {
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+}
+li {
+    flex: 1 1;
+    background-color: #e7f2fa;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    border: 1px solid #b3d7ea;
+    transition: color 0.2s ease, transform 0.2s ease;
+    list-style-type: none;
+}
+
+li:hover {
+    color: #3498db;
+    transform: translateX(5px);
+}
+h3 {
+    color: #3498db;
+    margin: 15px 0 10px 0;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+ul, ol {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    list-style-type: none;
+    margin-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+/* Background Image with Transparency */
+/* need position: fixed; and top: 0; left: 0; */
+body:before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("1600w-afsazXR5vWo.webp");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.7;
+    z-index: -1;
+}
